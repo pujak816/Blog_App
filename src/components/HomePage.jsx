@@ -6,12 +6,12 @@ const HomePage = async () => {
 
   return (
     <>
-      <section className="main_section p-24">
+      <section className="main_section px-24 py-10">
         <div className="flex flex-wrap bg-white">
           {blogData &&
             Array.isArray(blogData) &&
             blogData.map((item) => (
-              <div key={item.source.id} className="w-1/3 p-4">
+              <div key={item.source.id} className="w-1/4 p-1">
                 <img src={item.urlToImage}></img>
               </div>
             ))}

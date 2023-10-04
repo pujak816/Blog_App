@@ -1,5 +1,5 @@
-import getBlogs from "../libs/getBlogs";
-import BlogCard from "../components/BlogCard";
+import getBlogs from "../../libs/getBlogs";
+import BlogCard from "../../components/BlogCard";
 
 const Blog = async () => {
   const data = await getBlogs();

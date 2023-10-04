@@ -18,7 +18,7 @@ const BlogCard = ({ item }) => {
       </div>
       <div>
         <Link href="/post_page">
-          <button className="bg-violet-950 text-white rounded-xl px-3 py-1 mt-2 text-xs">
+          <button className="hover:bg-violet-950 hover:text-white rounded-xl px-3 py-1 mt-2 text-xs">
             Read More
           </button>
         </Link>
