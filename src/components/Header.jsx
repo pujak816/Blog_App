@@ -3,7 +3,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="bg-white text-slate-700 shadow-lg fixed w-full">
-      <nav className="font-semibold py-4 w-1/2 mx-auto flex justify-between items-center">
+      <nav className="font-semibold py-4 sm:w-2/3 lg:w-1/2 mx-auto px-4 flex justify-between items-center">
         <h3>Logo</h3>
         <ul className="flex items-center gap-10">
           <li className="hover:text-black hover:font-bold">
