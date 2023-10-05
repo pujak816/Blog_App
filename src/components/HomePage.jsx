@@ -6,7 +6,7 @@ const HomePage = async () => {
 
   return (
     <>
-      <section className="main_section px-24 py-10">
+      <section className="main_section px-24 pt-36 w-2/3 mx-auto">
         <div className="flex flex-wrap bg-white">
           {blogData &&
             Array.isArray(blogData) &&

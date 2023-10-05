@@ -8,8 +8,11 @@ const Blog = async () => {
 
   return (
     <>
-      <h1>All About Tech</h1>
-      <section className="flex flex-wrap justify-center">
+      <div className="py-10 sm:w-2/3 lg:w-1/2 mx-auto pt-28 px-4">
+        <h1 className="text-2xl font-bold tracking-widest">BLOG</h1>
+        <p className="text-slate-500">Read our latest articles</p>
+      </div>
+      <section className="article_section flex flex-wrap justify-center ">
         {blogData &&
           Array.isArray(blogData) &&
           blogData.map((item) => <BlogCard key={item.source.id} item={item} />)}
